@@ -1,6 +1,6 @@
 .tab{
   margin:80px;
-  box-shadow: 2px -2px 15px 1px rgb(226, 116, 152);
+  box-shadow: 1px -1px 15px 1px rgb(231, 152, 178);
   padding:5px;
   padding-bottom: 0px;
   padding-top:15px;
@@ -37,14 +37,38 @@ tr{
 }
 
 tr:hover{
-  transform: scale(1.02);
-  border: 1px solid black;
+  transform: scale(1.05);
+  border: 1.5px solid black;
 }
 h1{
   text-align: center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;;
 }
 
-.nav{
-  padding-left: 50px;
+.mynav{
+  padding-left: 100px;
+  padding-right: 100px;
+  width:100vw;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+
+.header{
+  display: flex;
+ justify-content: space-between;
+ padding-top: 25px;
+ margin: 10px;
+ padding-right:90px;
+ padding-left: 50px;
+ align-items: center;
+}
+span{
+  margin-left: 10px;
+}
+
+.logo{
+  width:250px;
 }
